@@ -178,18 +178,18 @@ These enhancements would build on the same architectural principles demonstrated
 ├── 📁 datasets/                              # Raw datasets used for the project (ERP and CRM data)
 
 ├── 📁 docs/                                  # Project documentation and architecture details
-│   ├── 📄 data_catalog_source_system.md      # Captures essential metadata of source systems
-│   ├── 📄 data_cleaning_transformation.md    # Outlines the key data cleaning and transformation techniques
-│   ├── 📄 data_dictionary.md                 # Provides detailed metadata for each column in the business-ready tables
-│   ├── 📄 data_flow_diagram                  # Visual representation of data flow across layers
-│   ├── 📄 data_flow_tasks                    # Flow of tasks in each layer
-│   ├── 📄 data_integration                   # Visual representation that depicts how Source Tables are connected
-│   ├── 📄 data_lakehouse_architecture        # High-level project architecture (Bronze, Silver, Gold)
-│   ├── 📄 data_layer_specifications          # Summarizes the objectives, transformations, and targets of each layer
-│   ├── 📄 data_model                         # Data model design (e.g., star schema)
-│   ├── 📄 power_bi_report_pages              # Screenshots of all 3 Power BI report pages
-│   ├── 📄 presentation_slide_deck            # Presentation deck related to this project
-│   ├── 📄 stakeholder_requirements           # Mind map showing the holistic understanding of ETL
+│   ├── 📄 data_catalog_source_system.md       # Captures essential metadata of source systems
+│   ├── 📄 data_cleaning_transformation.md     # Outlines the key data cleaning and transformation techniques
+│   ├── 📄 data_dictionary.md                  # Provides detailed metadata for each column in the business-ready tables
+│   ├── 📄 data_flow_diagram                   # Visual representation of data flow across layers
+│   ├── 📄 data_flow_tasks                     # Flow of tasks in each layer
+│   ├── 📄 data_integration                    # Visual representation that depicts how Source Tables are connected
+│   ├── 📄 data_lakehouse_architecture         # High-level data architecture (Bronze, Silver, Gold)
+│   ├── 📄 data_layer_specifications           # Summarizes the objectives, transformations, and targets of each layer
+│   ├── 📄 data_model                          # Data model design (e.g., star schema)
+│   ├── 📄 power_bi_report_pages               # Screenshots of all 3 Power BI report pages
+│   ├── 📄 presentation_slide_deck             # Presentation deck related to this project
+│   ├── 📄 stakeholder_requirements            # Stakeholder requirements and source system understanding
 
 ├── 📁 lakehouse/                       # Scripts for building the data lakehouse in Databricks
     ├── 📁 bronze/                        # Scripts for extracting and loading (full load) raw data
