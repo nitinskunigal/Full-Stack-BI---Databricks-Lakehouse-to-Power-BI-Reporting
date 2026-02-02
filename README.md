@@ -174,7 +174,7 @@ These enhancements would build on the same architectural principles demonstrated
 ## Repository Structure
 
 ```
-📁 data-warehouse-and-analytics-project/
+📁 full-stack-bi-databricks-lakehouse-to-power-bi-reporting/
 ├── 📁 datasets/                              # Raw datasets used for the project (ERP and CRM data)
 
 ├── 📁 docs/                                  # Project documentation and architecture details
